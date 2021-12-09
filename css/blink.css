@@ -89,3 +89,27 @@
     background-color:#2e2e2e!important;
 }
 
+/* Column 12/12 */
+#pricing .col-md-12{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    transform:translatex(0px) translatey(0px) !important;
+}
+
+/* Image */
+#pricing img{
+    transform:translatex(0px) translatey(0px)!important;
+    max-width:1488px!important;
+    overflow:hidden!important;
+}
+
+/* Pricing */
+#pricing{
+    overflow:hidden!important;
+}
+
+/* Paragraph */
+.small-padding-bottom .features-item p{
+    color:#858585!important;
+}
