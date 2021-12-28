@@ -39,7 +39,12 @@
     <![endif]-->
     
     <!--headerIncludes-->
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_BTRcoGJ8Y2aubJG7KaidF");
+        })();
+    </script>
 </head>
 <body>
     
@@ -427,7 +432,7 @@
                 <!--end success message -->
                 
                 <!--begin contact form -->
-                <form id="contact-form" class="contact" action="php/contact.php" method="post">
+                <form id="contact-form" class="contact" action="api/contact.php" method="post">
                     
                     <!--begin col-md-6-->
                     <div class="col-md-6">
