@@ -10,7 +10,7 @@ $field_phone = $_POST['phone'];
 
 $field_message = $_POST['message'];
 
-$mail_to = 'to@email.com';
+$mail_to = 'info@blinkcw.co.za';
 
 $subject = 'Message from a site visitor '.$field_first_name;
 
