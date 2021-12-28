@@ -1,0 +1,22 @@
+{
+  "name": "blinkcw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chardebeer/blinkcw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chardebeer/blinkcw/issues"
+  },
+  "homepage": "https://github.com/chardebeer/blinkcw#readme",
+  "dependencies": {
+    "vercel-php": "^0.4.0"
+  }
+}
